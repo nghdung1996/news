@@ -1,0 +1,36 @@
+vi:
+  layouts:
+    application:
+      title: "Hướng dẫn Ruby on Rails với ứng dụng Sample App"
+      en: "English"
+      vi: "Tiếng Việt"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      app: "Ứng dụng Sample "
+      t1: "Đây là trang chủ của"
+      t2: "Hướng dẫn về Ruby on Rails"
+      t3: "ứng dụng mẫu."
+
+    help:
+      title: "Trợ giúp"
+      option: "Trợ giúp"
+      t1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      t2: "trang trợ giúp Hướng dẫn của Rails"
+      t3: "Để được trợ giúp về ứng dụng mẫu này, hãy xem"
+      t4: "sách Hướng dẫn về Ruby on Rails"
+
+    about:
+      title: "Thông Tin"
+      option: "Thông Tin"
+      t1: "Hướng dẫn về Ruby on Rails"
+      t2: "là một cuốn sách và"
+      t3: "loạt screencast"
+      t4: "để dạy phát triển web với"
+      t5: "Ruby on Rails"
+      t6: "Đây là ứng dụng mẫu cho hướng dẫn."
+
+    contact:
+      title: "Liên hệ"
+      option: "Liên hệ"
+      t1: "Liên hệ với Hướng dẫn của Ruby on Rails về ứng dụng mẫu tại trang liên hệ"
