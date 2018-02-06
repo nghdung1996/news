@@ -4,6 +4,8 @@ vi:
       title: "Hướng dẫn Ruby on Rails với ứng dụng Sample App"
       en: "English"
       vi: "Tiếng Việt"
+      login: "Đăng Nhập"
+      news: "Tin Tức"
   static_pages:
     home:
       title: "Trang chủ"
@@ -11,6 +13,7 @@ vi:
       t1: "Đây là trang chủ của"
       t2: "Hướng dẫn về Ruby on Rails"
       t3: "ứng dụng mẫu."
+      signupnow: "Đăng kí ngay!"
 
     help:
       title: "Trợ giúp"
@@ -34,3 +37,7 @@ vi:
       title: "Liên hệ"
       option: "Liên hệ"
       t1: "Liên hệ với Hướng dẫn của Ruby on Rails về ứng dụng mẫu tại trang liên hệ"
+    
+    User:
+      signup: "Đăng kí"
+      t1: "Đây sẽ là trang đăng ký cho người dùng mới"
