@@ -27,3 +27,7 @@
 /config/secrets.yml
 .framgia-ci-result.temp.yml
 .framgia-ci-reports
+
+/config/settings.local.yml
+/config/settings/*.local.yml
+/config/environments/*.local.yml
