@@ -8,6 +8,14 @@ $light-gray: #777;
 $white: #fff;
 $gray: #555;
 $gray-darker: #222;
+$sliver: #bbb;
+$red: #f00;
+
+@mixin box-sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 // universal
 
@@ -109,5 +117,48 @@ footer {
       float: left;
       margin-left: 15px;
     }
+  }
+}
+
+// miscellaneous
+
+.debug-dump {
+  @include box-sizing;
+  clear: both;
+  float: left;
+  margin-top: 45px;
+  width: 100%;
+}
+
+// forms
+
+input,
+textarea,
+select,
+.uneditable-input {
+  @include box-sizing;
+  border: 1px solid $sliver;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+input {
+  height: auto;
+}
+
+.error-explanation {
+  color: $red;
+
+  ul {
+    color: $red;
+    margin: 0 0 30px;
+  }
+}
+
+.field-with-errors {
+  @extend %has-error !optional;
+
+  .form-control {
+    color: $state-danger-text;
   }
 }
